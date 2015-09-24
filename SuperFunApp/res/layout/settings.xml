@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/chooseLangText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/choose_language"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size18"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/langRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/englishLangBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/english"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size18"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/arabicLangBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="العربية"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size18"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitLanguage"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tab_selector"
+            android:padding="5dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2.5"
+            android:shadowDy="2.5"
+            android:shadowRadius="1.5"
+            android:text="@string/submit"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size15"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_gravity="left|bottom"
+        android:gravity="left"
+        android:layout_marginTop="20dp"      
+        android:padding="10dp" 
+        android:background="@null"
+        android:textColor="@drawable/log_button_color"
+        android:text="@string/log_out_new"
+        android:textAppearance="?android:attr/textAppearanceMedium"       
+        android:textSize="@dimen/text_size18"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/footer" />
+
+</LinearLayout>

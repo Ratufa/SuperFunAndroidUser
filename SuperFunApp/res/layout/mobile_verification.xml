@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/header"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/mobile_close"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center|left"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="35dp"
+                android:src="@drawable/close" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/titleMobile"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:gravity="center"
+                android:background="@drawable/sms_title"
+                android:textColor="#F3EFB4"
+                android:textSize="29sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/verify_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/mob_verify"
+                android:textColor="#635118"
+                android:textSize="@dimen/text_size16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/verifyMobText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#E0842E"
+                android:textSize="@dimen/text_size25"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/numCorrectBtn"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/new_button"
+                android:padding="5dp"
+                android:shadowColor="#000000"
+                android:shadowDx="2.5"
+                android:shadowDy="2.5"
+                android:shadowRadius="1.5"
+                android:text="@string/Number_is_Correct"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size15"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/timerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/timer"
+                android:textColor="#594711"
+                android:textSize="@dimen/text_size16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/verifyTimerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="180"
+                android:textColor="#E17E2A"
+                android:textSize="@dimen/text_size25"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/secondTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/seconds"
+                android:textColor="#B9B071"
+                android:textSize="@dimen/text_size14"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/verifyMobEt"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/et_box"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/confirm_code"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColor="@color/hint_color"
+                android:textColorHint="@color/hint_color"
+                android:textSize="@dimen/text_size20"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/confirmMobBtn"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tab_selector"
+                android:padding="5dp"
+                android:shadowColor="#000000"
+                android:shadowDx="2.5"
+                android:shadowDy="2.5"
+                android:shadowRadius="1.5"
+                android:text="@string/submit_pin"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size15"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/footer" />
+
+</LinearLayout>

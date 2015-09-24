@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="header_color">#EF8027</color>
+    <color name="background_color">#FCDBA3</color>
+    <color name="gift_color">#E17E2B</color>
+    <color name ="list_back">#FEF6E8</color>
+    <color name="points_color">#CD071F</color>
+    <color name="expand_item_color">#6D6C71</color>
+    <color name="popup_color">#FDEFD7</color>
+    <color name="hint_color">#BCB57A</color>
+    <color name="transparent">#00000000</color>
+     <color name="TransparentGrey">#7F000000</color>
+    <color name="list_select_color">#A6F38038</color>
+   
+    
+</resources>

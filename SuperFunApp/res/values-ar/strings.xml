@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string name="app_name">متعة فائقة التطبيق</string> -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">القائمة المفتوحة</string>
+    <string name="action_back">Back</string>
+    <string name="welcome_string">أهلا بك</string>
+    <string name="net_error">خطأ في الشبكة</string>
+    <string name="error">خطأ</string>
+    <string name="no_gifts">لم يتم العثور على الهدايا.</string>
+    <string name="no_fun_fare">لم يتم العثور على مراكز المتعة الأجرة.</string>
+    <string name="no_purchase">العثور على أي تاريخ الشراء.</string>
+    <string name="inactive_account">حسابك غير نشط الآن.</string>
+    <string name="log_out_msg">هذا الرقم مسجل على هاتف آخر، يرجى تسجيل الخروج منه أولا </string>
+    <string name="mob_correct_text">سيتم إرسال رسالة نصية SMS إلى الرقم الخاص بك، هل رقم هاتفك صحيح؟</string>
+    <string name="message">رسالة</string>
+    <string name="num_same">الرقم هو نفس الرقم السابق</string>
+    <string name="not_enough_tickets">لا يوجد لديك رصيد كافي من التذاكر لاتمام العملية</string>
+    <string name="not_enough_points">لا يوجد لديك رصيد كافي من النقاط لاتمام العملية</string>
+    <string name="how_to">كيفية استخدام التطبيق؟</string>
+    <string name="sign_up">استمرار</string>
+    <string name="dont_have_new">يرجى الضغط أدناه لتسجيل الدخول / تسجيل</string>
+    <string name="mob_start_valid">يجب أن يكون رقم الجوال يبدأ مع 9،5 أو 6</string>
+
+    <!-- Login -->
+    <string name="login_string">تسجيل الدخول</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="num_should_registered">ملاحظة: يحتاج هذا العدد أن تكون مسجلة قبل رمز التحقق سيتم إرسالها إلى هذا العدد</string>
+
+    <!-- Sign up -->
+    <string name="signup_string">سجل</string>
+    <string name="mob_num">رقم الهاتف</string>
+    <string name="password_str">كلمة السر</string>
+    <string name="confirm_password_str">تأكيد كلمة السر</string>
+    <string name="i_agree">أوافق على </string>
+    <string name="terms">شروط الخدمة</string>
+    <string name="privacy">سياسة الخصوصية</string>
+
+    <!-- Home -->
+    <string name="how_it_works"> كيفية استخدام البرنامج</string>
+    <string name="participating_comp">الشركات المشاركة</string>
+    <string name="change_lang">غير اللغة</string>
+    <string name="dont_have">لا تملك حسابا؟</string>
+
+    <!-- Settings -->
+    <string name="submit">تغيير</string>
+    <string name="submit_pin">تأكيد</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="choose_language">اختيار الناطقة</string>
+    <string name="arabic">العربية</string>
+    <string name="change">تغيير</string>
+    <string name="log_out">خروج</string>
+    <string name="log_out_new">تسجيل الخروج</string>
+    <string name="old_pwd">كلمة المرور القديمة</string>
+    <string name="new_pwd">كلمة سر جديدة</string>
+    <string name="confirm_pwd">تأكيد كلمة السر الجديدة</string>
+
+    <!-- Points collector -->
+
+    <string name="mob_number">رقم الهاتف</string>
+    <string name="total_tickets">مجموع التذاكر</string>
+    <string name="confirm_code">رمز التأكيد</string>
+    <string name="timer">مؤقت</string>
+    <string name="seconds">ثواني</string>
+    <string name="done">ارسال</string>
+
+    <!-- Contact us -->
+    <string name="hot_line">الخط الساخن</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="website">الموقع على شبكة الإنترنت</string>
+
+    <!-- Mobile verification -->
+    <string name="mob_verify">سوف تستلم رسالة SMS للتحقق من رقم الهاتف الجوال الخاص بك</string>
+    <string name="not_receive_sms">لم تتلق SMS؟ &#8230; </string>
+    <string name="send_again">أعد الإرسال</string>
+    <string name="confirm">أكد</string>
+    <string name="sms_screen_name">تأكيد SMS</string>
+    <string name="show_page_both">يرجى عرض هذه الصفحة على الموظف المختص</string>
+    <string name="show_page_tickets">يرجى عرض هذه الصفحة على أمين الصندوق</string>
+    <string name="show_page_points">يرجى عرض هذه الصفحة على الموظف المختص</string>
+
+    <!-- Buy tickets -->
+    <string name="buy_ticket_string">لكل 1 $ الذي تدفعه \ ن تحصل على 3 دولارات ألعاب و أمبير؛ 10 هدية نقاط</string>
+    <string name="amount">مبلغ</string>
+    <string name="buy">شراء</string>
+    <string name="buy_tab">اشتري تذاكر</string>
+
+    <!-- Tickets n Points -->
+    <string name="total_points">مجموع النقاط</string>
+    <string name="points">نقاط</string>
+    <string name="worth">قيمة</string>
+    <string name="collect_tickets">جمع تذاكر</string>
+    <string name="collect_points">جمع النقاط</string>
+
+    <!-- Forgot password -->
+    <string name="enter_mob">يرجى إدخال رقم الهاتف الجوال الخاص بك</string>
+    <string name="forgot_pass">نسيت كلمة المرور</string>
+
+    <!-- Tabs -->
+
+    <string name="ticekts_tab">شراء تذاكر الألعاب</string>
+    <string name="history_tab">تاريخ</string>
+    <string name="companies_tab">جمع</string>
+
+    <!-- Popup window -->
+    <string name="settings_menu">الإعدادات</string>
+    <string name="settings">اعدادات الحساب</string>
+    <string name="gift_mennu">قائمة الهدايا</string>
+    <string name="gift_list">قائمة الهدايا</string>
+    <string name="companies_menu">الشركات المشاركة</string>
+    <string name="terms_menu">شروط وتعليمات الخدمة</string>
+    <string name="privacy_menu">سياسة الخصوصية</string>
+    <string name="contact_menu">للاتصال بنا</string>
+    <string name="contact_us">للاتصال بنا</string>
+    <string name="points_n_tickets">تذاكر النقاط</string>
+    <string name="ticket_collector">قاطع التذاكر</string>
+    <string name="points_collector">نقطة جامع</string>
+    <string name="please_wait">يرجى الانتظار&#8230;</string>
+    <string name="network_connection">الرجاء التحقق من اتصال الشبكة</string>
+
+    <!-- Sign up/Login validations -->
+    <string name="mob_not_specified">رقم الجوال غير محدد</string>
+    <string name="pass_not_specified">كلمة السر غير محددة</string>
+    <string name="confirm_pass_not_specified">تأكيد كلمة السر غير محددة</string>
+    <string name="mob_length_valid">يجب أن يكون رقم الجوال 8 الطابع الطويل.</string>
+    <string name="pass_not_matched">كلمة المرور لا تتطابق</string>
+    <string name="international_codes">لا يسمح للرموز الدولية</string>
+    <string name="enter_amount">يرجى اختيار أحد العروض</string>
+    <string name="enter_pin">رقم سري غير محددة</string>
+    <string name="pin_send">دبوس إرسال بنجاح</string>
+    <string name="pin_verified">التحقق من رقم التعريف الشخصي بنجاح</string>
+    <string name="invalid_pin">دبوس صالح</string>
+    <string name="password_sent">إرسال كلمة المرور بنجاح إلى رقم هاتفك المحمول.</string>
+    <string name="old_pwd_not_valid">كلمة المرور القديمة غير صالحة</string>
+    <string name="pwd_not_matched">كلمة المرور الجديدة وتأكيد كلمة المرور لا يقابل</string>
+    <string name="old_pwd_not_specified">كلمة المرور القديمة غير محدد</string>
+    <string name="new_pwd_not_specified">كلمة سر جديدة غير محددة</string>
+    <string name="confirm_pwd_not_specified">تأكيد كلمة السر غير محددة</string>
+    <string name="password_changed">تغيير كلمة المرور بنجاح</string>
+    <string name="logout_successfully">خروج بنجاح</string>
+    <string name="com_branches">الفروع</string>
+    <string name="purchase_history">تاريخ الشراء</string>
+    <string name="invalid_username_pwd">اسم المستخدم أو كلمة المرور غير صالحة</string>
+    <string name="login_successful">تسجيل الدخول بنجاح</string>
+    <string name="registration_successful">سجلت بنجاح</string>
+    <string name="verify_number">يرجى التحقق من رقم هاتفك المحمول</string>
+    <string name="server_communication">فشل اتصال الملقم</string>
+    <string name="ticket_message">يتم جمع تذاكر بالفعل</string>
+    <string name="point_message">يتم جمع النقاط بالفعل</string>
+   
+    <string name="no_data">لا تتوافر بيانات</string>
+    <string name="pass_not_sent">كلمة المرور لم ترسل يرجى المحاولة مرة أخرى</string>
+    <string name="msg_not_sent">لم يتم إرسال الرسالة من فضلك أرسل مرة أخرى.</string>
+    <string name="number_registered">عدد سجلت بالفعل</string>
+    <string name="invalid_num">عدد غير صالح</string>
+    <string name="tickets_collected">عدد تذاكر الالعاب التي تم تحصيلها بنجاح:</string>
+    <string name="branch_name">الفرع: </string>
+    <string name="location_name">شركة الالعاب: </string>
+    <string name="points_collected">عدد نقاط الهدايا التي تم تحصيلها بنجاح:</string>
+    <string name="Exit_Super_Fun_App">هل أنت متأكد من الخروج من البرنامج؟</string>
+    <string name="delete_account_msg">هل تريد تسجيل الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="Fun_Fair_Centers">مراكز الالعاب</string>
+    <string name="How_to_use_the_App">كيفية استخدام التطبيق ؟</string>
+    <string name="fun_fair_comps">الشركات المشاركة</string>
+    <string name="Payment_Gateway">بوابة الدفع</string>
+    <string name="log_box">كتاب تسجيل</string>
+    <string name="Collecting_Tickets_Points">جمع التذاكر ونقاط</string>
+    <string name="ok">حسنا</string>
+    <string name="account_deleted">تسجيل الخروج بنجاح.</string>
+    <string name="price_kd">السعر K.D.</string>
+    <string name="Gifts_Points">نقاط الهدايا</string>
+    <string name="Total_Tickets">مجموع التذاكر</string>
+    <string name="Choose_one_of_the_offers_below">اختر أحد العروض التالية</string>
+    <string name="Fun_Park">متعة بارك</string>
+    <string name="Branches">الفروع</string>
+    <string name="Gifts_value_Points">قيمة الهدية بالنقاط</string>
+    <string name="Buy_Tickets">شراء تذاكر الألعاب</string>
+    <string name="Number_is_Correct">العدد الصحيح</string>
+    <string name="please_login_again">يرجى تسجيل الدخول مرة أخرى</string>
+    <string name="alert">إنذار</string>
+
+</resources>
